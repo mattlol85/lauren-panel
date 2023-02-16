@@ -1,0 +1,49 @@
+body {
+    background-color: lightblue;
+  }
+  
+  input[type="text"] {
+    width: 50%;
+    height: 50px;
+    font-size: 20px;
+    margin: 20px auto;
+    display: block;
+    text-align: center;
+    animation: text-input-animation 0.5s ease-in-out;
+  }
+  
+  button {
+    width: 150px;
+    height: 50px;
+    font-size: 20px;
+    margin: 20px;
+    display: inline-block;
+    background-color: white;
+    border: 2px solid blue;
+    border-radius: 10px;
+    animation: button-animation 0.5s ease-in-out;
+  }
+  
+  button:hover {
+    cursor: pointer;
+    background-color: blue;
+    color: white;
+  }
+  
+  @keyframes text-input-animation {
+    0% {
+      transform: translateY(-100%);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+  
+  @keyframes button-animation {
+    0% {
+      transform: translateX(-100%);
+    }
+    100% {
+      transform: translate()
+    }
+}  
