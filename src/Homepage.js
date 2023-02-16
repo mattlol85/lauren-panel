@@ -4,7 +4,7 @@ const HomePage = () => {
 
   return (
     <div>
-      <h1>Fitz-Net</h1>
+      <h1>Lauren-Panel</h1>
       <h2>Under Construction</h2>
     </div>
   );
